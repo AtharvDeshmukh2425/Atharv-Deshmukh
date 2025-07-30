@@ -14,6 +14,11 @@
             --border-color: rgba(0, 255, 255, 0.2);
         }
 
+        /* --- SMOOTH SCROLLING ADDED HERE --- */
+        html {
+            scroll-behavior: smooth;
+        }
+
         body {
             font-family: 'Inter', sans-serif;
             background-color: var(--bg-color);
@@ -113,9 +118,7 @@
 
     <canvas id="particle-canvas"></canvas>
 
-    <!-- Content Wrapper -->
     <div class="relative z-10">
-        <!-- Header -->
         <header class="fixed top-0 left-0 right-0 z-50 glass-hud mx-4 mt-4">
             <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
                 <a href="#" class="text-xl font-bold text-white">Atharv Deshmukh</a>
@@ -128,7 +131,6 @@
             </nav>
         </header>
 
-        <!-- Hero Section -->
         <section id="home" class="hero-section">
             <div class="z-10 px-4">
                 <h1 class="text-4xl md:text-5xl font-bold mb-6 text-white leading-tight">Engineering the Future of Mobility</h1>
@@ -139,7 +141,6 @@
         </section>
 
         <main class="container mx-auto px-6 py-12">
-            <!-- About Section -->
             <section id="about" class="py-16">
                 <div class="glass-hud p-8 md:p-12">
                     <h2 class="section-title mb-8">About Me</h2>
@@ -149,7 +150,6 @@
                 </div>
             </section>
 
-            <!-- Skills Section -->
             <section id="skills" class="py-16">
                 <h2 class="section-title mb-12">Core Competencies</h2>
                 <div class="glass-hud p-8 md:p-12">
@@ -194,7 +194,6 @@
                 </div>
             </section>
 
-            <!-- Projects Section -->
             <section id="projects" class="py-16">
                 <h2 class="section-title mb-12">Projects</h2>
                 <div class="space-y-12">
@@ -229,26 +228,24 @@
                 </div>
             </section>
 
-            <!-- Education Section -->
             <section id="education" class="py-16">
                 <h2 class="section-title mb-12">Education</h2>
                 <div class="glass-hud p-8 max-w-lg mx-auto">
                      <div class="flex items-center">
-                        <div class="pr-8 border-r-2 border-cyan-500">
-                            <p class="text-5xl font-bold text-white">B.Tech</p>
-                        </div>
-                        <div class="pl-8">
-                            <p class="font-bold text-base text-white">Electronics & Telecommunication</p>
-                            <p class="text-sm text-gray-400">JSPM's Rajarshi Shahu College of Engineering, Pune</p>
-                            <p class="text-sm text-cyan-400 mt-1">Current CGPA: 8.19</p>
-                        </div>
+                         <div class="pr-8 border-r-2 border-cyan-500">
+                             <p class="text-5xl font-bold text-white">B.Tech</p>
+                         </div>
+                         <div class="pl-8">
+                             <p class="font-bold text-base text-white">Electronics & Telecommunication</p>
+                             <p class="text-sm text-gray-400">JSPM's Rajarshi Shahu College of Engineering, Pune</p>
+                             <p class="text-sm text-cyan-400 mt-1">Current CGPA: 8.19</p>
+                         </div>
                     </div>
                 </div>
             </section>
 
         </main>
 
-        <!-- Contact Section -->
         <footer id="contact" class="py-16 bg-black mt-12">
             <div class="container mx-auto px-6 text-center">
                 <h2 class="text-3xl font-bold mb-4 text-white">Get In Touch</h2>
